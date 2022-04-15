@@ -1,6 +1,6 @@
 # Installation
 
-`yarn add --dev git@github.com:bitboxx/prettier-config.git`
+`yarn add --dev @bitboxx/prettier-config@github:bitboxx/prettier-config.git`
 
 # Configuration
 
