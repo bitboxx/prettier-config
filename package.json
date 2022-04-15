@@ -1,0 +1,9 @@
+{
+  "name": "@bitboxx/prettier-config",
+  "version": "1.0.0",
+  "description": "Bitboxx Prettier config",
+  "main": "index.json",
+  "repository": "git@github.com:bitboxx/prettier-config.git",
+  "author": "bitboxx",
+  "license": "UNLICENSED"
+  }
