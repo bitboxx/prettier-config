@@ -3,7 +3,7 @@
 ## Using JQ
 
 ```
-pkg=$(jq '.prettier="@bitboxx/prettier-config" | .devDependencies["eslint-config-bitboxx"]="github:bitboxx/eslint-config-bitboxx"' package.json) && \
+pkg=$(jq '.prettier="@bitboxx/prettier-config" | .devDependencies["@bitboxx/prettier-config"]="github:bitboxx/prettier-config"' package.json) && \
   echo -E "$pkg" > package.json
 
 yarn
