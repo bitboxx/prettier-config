@@ -1,9 +1,12 @@
 {
   "name": "@bitboxx/prettier-config",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "Bitboxx Prettier config",
   "main": "index.json",
   "repository": "git@github.com:bitboxx/prettier-config.git",
   "author": "bitboxx",
-  "license": "UNLICENSED"
+  "license": "UNLICENSED",
+  "scripts": {
+    "release": "yarn version major && git add -A && git commit -m \"Rules update $(date)\" && git push origin"
   }
+}
