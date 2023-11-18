@@ -1,6 +1,6 @@
 {
   "name": "@bitboxx/prettier-config",
-  "version": "5.0.0",
+  "version": "6.0.0",
   "description": "Bitboxx Prettier config",
   "main": "index.json",
   "repository": "git@github.com:bitboxx/prettier-config.git",
