@@ -28,7 +28,8 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         [null, {\
           "packageLocation": "./",\
           "packageDependencies": [\
-            ["@typescript-eslint/parser", "virtual:7f4818cd9912ea3050b570a0162f6e2aeb458dd844c5299cb0d78a620069f2de31195071b79737f46457889c2ef009e322ff1cae071815462f8f685d8cb8784f#npm:6.11.0"]\
+            ["@typescript-eslint/parser", "virtual:7f4818cd9912ea3050b570a0162f6e2aeb458dd844c5299cb0d78a620069f2de31195071b79737f46457889c2ef009e322ff1cae071815462f8f685d8cb8784f#npm:6.11.0"],\
+            ["doctrine", "npm:3.0.0"]\
           ],\
           "linkType": "SOFT"\
         }]\
@@ -38,7 +39,8 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./",\
           "packageDependencies": [\
             ["@bitboxx/prettier-config", "workspace:."],\
-            ["@typescript-eslint/parser", "virtual:7f4818cd9912ea3050b570a0162f6e2aeb458dd844c5299cb0d78a620069f2de31195071b79737f46457889c2ef009e322ff1cae071815462f8f685d8cb8784f#npm:6.11.0"]\
+            ["@typescript-eslint/parser", "virtual:7f4818cd9912ea3050b570a0162f6e2aeb458dd844c5299cb0d78a620069f2de31195071b79737f46457889c2ef009e322ff1cae071815462f8f685d8cb8784f#npm:6.11.0"],\
+            ["doctrine", "npm:3.0.0"]\
           ],\
           "linkType": "SOFT"\
         }]\
@@ -217,11 +219,30 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "HARD"\
         }]\
       ]],\
+      ["doctrine", [\
+        ["npm:3.0.0", {\
+          "packageLocation": "./.yarn/cache/doctrine-npm-3.0.0-c6f1615f04-fd7673ca77.zip/node_modules/doctrine/",\
+          "packageDependencies": [\
+            ["doctrine", "npm:3.0.0"],\
+            ["esutils", "npm:2.0.3"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
       ["eslint-visitor-keys", [\
         ["npm:3.4.3", {\
           "packageLocation": "./.yarn/cache/eslint-visitor-keys-npm-3.4.3-a356ac7e46-36e9ef87fc.zip/node_modules/eslint-visitor-keys/",\
           "packageDependencies": [\
             ["eslint-visitor-keys", "npm:3.4.3"]\
+          ],\
+          "linkType": "HARD"\
+        }]\
+      ]],\
+      ["esutils", [\
+        ["npm:2.0.3", {\
+          "packageLocation": "./.yarn/cache/esutils-npm-2.0.3-f865beafd5-22b5b08f74.zip/node_modules/esutils/",\
+          "packageDependencies": [\
+            ["esutils", "npm:2.0.3"]\
           ],\
           "linkType": "HARD"\
         }]\

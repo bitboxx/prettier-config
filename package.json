@@ -1,6 +1,6 @@
 {
   "name": "@bitboxx/prettier-config",
-  "version": "3.0.0",
+  "version": "4.0.0",
   "description": "Bitboxx Prettier config",
   "main": "index.json",
   "repository": "git@github.com:bitboxx/prettier-config.git",
@@ -10,6 +10,7 @@
     "release": "yarn version major && git add -A && git commit -m \"Rules update $(date)\" && git push origin"
   },
   "dependencies": {
-    "@typescript-eslint/parser": "^6.11.0"
+    "@typescript-eslint/parser": "^6.11.0",
+    "doctrine": "^3.0.0"
   }
 }
